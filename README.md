@@ -1,10 +1,10 @@
-Coffee Sales Analytics and Interactive Excel Dashboard
+## Coffee Sales Analytics and Interactive Excel Dashboard
 
 An end-to-end data analytics portfolio project transforming raw e-commerce coffee transaction logs into an executive-ready, interactive decision dashboard in Microsoft Excel.
 
 ---
 
-Project Overview
+## Project Overview
 
 Specialty coffee retail relies heavily on customer retention, timely inventory forecasting, and understanding consumer roast preferences across diverse geographical markets.
 
@@ -16,7 +16,7 @@ This project analyzes transactional order logs across multiple years, customers,
 
 ---
 
-Dataset Overview and Attributes
+## Dataset Overview and Attributes
 
 The source workbook (coffee-sales.xlsx) consists of three dedicated sheets containing raw business records: Orders, Customers, and Products.
 
@@ -49,7 +49,7 @@ This sheet defines all available inventory items and their core pricing specific
 
 ---
 
-Data Preparation and Enrichment
+## Data Preparation and Enrichment
 
 Rather than using complex external pipelines, the data was prepared directly inside Excel to build a unified reporting table ready for analysis:
 * Customer Integration: Looked up customer details (name, email, country) into the main orders table using primary customer keys.
@@ -57,9 +57,9 @@ Rather than using complex external pipelines, the data was prepared directly ins
 * Data Decoding and Standardization: Converted shorthand codes for coffee varieties (Ara, Rob, etc.) and roasts (L, M, D) into human-readable full names for chart readability.
 * Financial Calculations: Derived line-item gross sales by multiplying unit price by quantity ordered.
 
-===
+---
 
-Interactive Dashboard Highlights
+## Interactive Dashboard Highlights
 
 The primary deliverable is an executive dashboard powered by synchronized Pivot Tables and Pivot Charts:
 * Sales Trend Over Time: Monthly and quarterly timeline line chart identifying seasonal peaks, dips, and annual growth trajectory.
@@ -69,7 +69,7 @@ The primary deliverable is an executive dashboard powered by synchronized Pivot 
 
 ---
 
-Interactive Control Elements
+## Interactive Control Elements
 
 * Timeline Slicer: Interactively filters all connected pivot charts across Year, Quarter, or Month.
 * Geographic Slicer: One-click filtering across target sales countries.
@@ -78,7 +78,7 @@ Interactive Control Elements
 
 ---
 
-Key Business Findings
+## Key Business Findings
 
 * Primary Revenue Driver: The United States constitutes the largest volume of sales, with recurring clusters of high-frequency buyers in the UK and Ireland.
 * Preferred Bean Profile: Arabica and Liberica beans across Medium Roast consistently lead both unit volume and overall gross revenue.
@@ -87,7 +87,7 @@ Key Business Findings
 
 ---
 
-Commercial Recommendations
+## Commercial Recommendations
 
 * Loyalty Onboarding Funnels: Target first-time buyers in the US and UK with an immediate sign-up incentive (such as 10% off subsequent orders) to increase the conversion rate of non-loyalty customers.
 * Safety Stock Replenishment: Focus warehouse reorder points on 0.5 kg and 1.0 kg Medium Roast Arabica SKUs to avoid lost sales during quarter-end spikes.
@@ -96,5 +96,4 @@ Commercial Recommendations
 ## Technical Competencies Demonstrated
 
 * Data Modeling and Manipulation: Excel Tables, Data Cleaning, Reference Lookups, Categorical Mapping.
-
-* Data Visualization and BI: Pivot Tables, Pivot Charts, Timeline Controls, Interactive Slicers, UI Canvas Design.
+* Data Visualization: Pivot Tables, Pivot Charts, Timeline Controls, Interactive Slicers, UI Canvas Design.
